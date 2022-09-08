@@ -5,7 +5,7 @@ $id_chat = $_POST['chat'];
 $mensagem = $_POST['mensagem'];
 
 // Credenciais do telegram
-$apiToken = "5663540695:AAG8IzQ0KqHTH9W-KFkvplwG3xmBdsVJKbc";
+$apiToken = "YOUR KEY";
 $data = [
     'chat_id' => $id_chat, 
     'text' => $mensagem
