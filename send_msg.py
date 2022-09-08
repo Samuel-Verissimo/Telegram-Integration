@@ -6,7 +6,7 @@ import requests
 def send_to_telegram(message):
 
     # Credencias do meu telegram
-    apiToken = '5663540695:AAG8IzQ0KqHTH9W-KFkvplwG3xmBdsVJKbc'    # Api do meu bot                     
+    apiToken = 'YOUR KEY'    # Api do meu bot                     
     apiURL = f'https://api.telegram.org/bot{apiToken}/sendMessage' # Api resposanvel por enviar a mensagem
     chatID = '-761330787' # -763496262'   
 
